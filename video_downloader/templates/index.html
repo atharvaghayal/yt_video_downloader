@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketmp4</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="website icon" type="png" href="static\rocketmp4logo.png" />
+</head>
+<body>  
+    <h1>ROCKET-MP4</h1>
+    <section id="form-section">
+        <h2>Download Youtube to .MP4</h2>
+        <form id="download-form" action="/download">
+            <label for="url">Enter URL:</label>
+            <input type="text" id="url" name="url" required>
+            <button type="submit">Download</button>
+        </form>
+    </section>
+    <br><br><br><br>
+    <section id="form-section">
+        <h2>Download Social media reels to .MP4</h2>
+        <form id="download-form" action="/download">
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            <button type="submit">Download</button>
+        </form>
+    </section>
+    <br><br><br><br>
+    <section id="form-section">
+        <h2>Download any video format to .MP4</h2>
+        <form id="download-form" action="/download">
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            <button type="submit">Download</button>
+        </form>
+    </section>
+    <br><br><br><br>
+    <section id="form-section">
+        <h2>.MP4 video compresser</h2>
+        <form id="download-form" action="/download">
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            <button type="submit">Download</button>
+        </form>
+    </section>
+</body>
+</html>
